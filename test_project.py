@@ -28,6 +28,6 @@ def test_takeCommand():
     
     assert speak[0] == "Listening..."
     assert speak[1] == "Recognizing..."
-    assert speak[2] == "User said: Hello, world!"
+    assert speak[2] == "User said: Open google!"
 
    
