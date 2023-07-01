@@ -73,8 +73,6 @@ if __name__ == "__main__":
         elif'play youtube music' in query:
             webbrowser.open("youtube music.com")
 
-        elif'alexa play music' in query:
-            webbrowser.open("alexa.com")
 
         elif'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
